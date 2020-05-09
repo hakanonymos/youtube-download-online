@@ -1,0 +1,30 @@
+
+{
+  "manifest_version": 2,
+
+  "name": "youtube videos downloade",
+  "description": "The easy way to download and convert Web videos from hundreds of YouTube-like sites",
+
+  "version": "3.3",
+  
+   "browser_action": {
+      "default_icon": {
+         "256":"icons/youtube256.png",
+         "128": "icons/youtube128.png",
+         "48": "icons/youtube48.png",
+         "32": "icons/youtube32.png",
+         "24": "icons/youtube24.png",
+         "16": "icons/youtube16.png"
+        
+      },
+      "default_popup": "popup.html"
+   },
+   "background": {
+    "scripts": ["js/background.js"]
+    },
+    "permissions": [
+    "tabs"
+  ]
+   
+}
+
